@@ -1,0 +1,15 @@
+nav ul {
+    display: block;
+    list-style-type: none;
+    li a {
+        @include span(1/2);
+        text-align: center;
+        @include pad(10px);
+        color: white;
+        text-decoration: none;
+        &:hover {
+            background-color: #ccc;
+            color: white;
+        }
+    }
+}

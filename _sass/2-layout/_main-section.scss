@@ -1,0 +1,21 @@
+section {
+    @include clearfix();
+    background-color: white;
+}
+
+article {
+    @media(min-width: 651px) {
+        @include column(7/10);
+    }
+}
+
+aside {
+    @media(min-width: 651px) {
+        @include column(3/10);
+    }
+}
+
+article,
+aside {
+    @include pad(15px);
+}
