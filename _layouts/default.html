@@ -12,18 +12,14 @@
 
 	<header>
 		<div>The Header</div>
-		<nav>
-    		<ul>
-        		<li><a href="{{site.baseurl}}/index.html">Home</a></li>
-        		<li><a href="{{site.baseurl}}/news.html">News</a></li>
-    		</ul>
-		</nav>
+		{% include nav.html %}
 	</header>
 	
     {{content}}
 
 	<footer>
 		<p>&copy; Copyright 2014 Alejandro Ortiz</p>
+		{% include nav.html %}
 	</footer>
 
 </body>
