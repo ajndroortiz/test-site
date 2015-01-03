@@ -1,9 +1,12 @@
 
 	<footer>
 		{% include nav.html %}
-		<p>&copy; Copyright {{ site.time | date: "%Y" }} Alejandro Ortiz</p>
+		<p>&copy; Copyright {{ site.time | date: "%Y" }} {{ site.author }}</p>
 	</footer>
-
+	
+	<script src="{{ site.baseurl }}/js/vendor/jquery-2.1.1.min.js"></script>
+    <script src="{{ site.baseurl }}/js/plugins.js"></script>
+    <script src="{{ site.baseurl }}/js/main.js"></script>
 </body>
 
 </html>
