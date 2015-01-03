@@ -1,6 +1,7 @@
 nav ul {
     display: block;
     list-style-type: none;
+    @include clearfix();
     li a {
         @include span(1/2);
         text-align: center;
