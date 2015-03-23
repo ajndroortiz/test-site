@@ -1,4 +1,15 @@
-markdown: redcarpet
+# Site Settings:
+title: My Test Page in Jekyll
+email: ajndro.ortiz@gmail.com
+description: # description for the site.  Nothing to think of right now.
 baseurl: /test-site
+<<<<<<< Updated upstream
 exclude: ["README.md"]
 author: Alejandro Ortiz Jr.
+=======
+twitter_name: ajndroortiz
+exclude: ["README.md"]
+
+# Build Settings:
+markdown: kramdown
+>>>>>>> Stashed changes
